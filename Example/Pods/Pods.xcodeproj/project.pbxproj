@@ -12,8 +12,8 @@
 		53FCD9271F0F6DE70087207D /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FCD9231F0F6DE70087207D /* DownloadOperation.m */; };
 		53FCD9281F0F6DE70087207D /* DownloadTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FCD9241F0F6DE70087207D /* DownloadTool.h */; };
 		53FCD9291F0F6DE70087207D /* DownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FCD9251F0F6DE70087207D /* DownloadTool.m */; };
-		53FCD92C1F0F72D40087207D /* NSString+urlToFileName.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FCD92A1F0F72D40087207D /* NSString+urlToFileName.h */; };
-		53FCD92D1F0F72D40087207D /* NSString+urlToFileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FCD92B1F0F72D40087207D /* NSString+urlToFileName.m */; };
+		53FCD9721F0F821C0087207D /* NSString+urlToFileName.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FCD9701F0F821C0087207D /* NSString+urlToFileName.h */; };
+		53FCD9731F0F821C0087207D /* NSString+urlToFileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FCD9711F0F821C0087207D /* NSString+urlToFileName.m */; };
 		7A83E9DC80BD04B864BFF80218BADF3D /* Pods-DownloadTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C7A9EE5C540B91796635584F3B3CD9 /* Pods-DownloadTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C63277C712F071E153D56A6A97002B1 /* DownloadTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86B3EC449BADDB48DBD75AA57B34408 /* DownloadTool-dummy.m */; };
 		924E8B0A00866E93BDDB960F298D85C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -50,8 +50,8 @@
 		53FCD9231F0F6DE70087207D /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 		53FCD9241F0F6DE70087207D /* DownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTool.h; sourceTree = "<group>"; };
 		53FCD9251F0F6DE70087207D /* DownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTool.m; sourceTree = "<group>"; };
-		53FCD92A1F0F72D40087207D /* NSString+urlToFileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+urlToFileName.h"; sourceTree = "<group>"; };
-		53FCD92B1F0F72D40087207D /* NSString+urlToFileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+urlToFileName.m"; sourceTree = "<group>"; };
+		53FCD9701F0F821C0087207D /* NSString+urlToFileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+urlToFileName.h"; sourceTree = "<group>"; };
+		53FCD9711F0F821C0087207D /* NSString+urlToFileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+urlToFileName.m"; sourceTree = "<group>"; };
 		56650D041B7F142B5BC037802ADB08FB /* Pods-DownloadTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		58624090BFDDEDA52E4D28F525D87FA5 /* Pods_DownloadTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -169,8 +169,8 @@
 		7FD957579520D70CB2F1F3C2DF5A2EA8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53FCD92A1F0F72D40087207D /* NSString+urlToFileName.h */,
-				53FCD92B1F0F72D40087207D /* NSString+urlToFileName.m */,
+				53FCD9701F0F821C0087207D /* NSString+urlToFileName.h */,
+				53FCD9711F0F821C0087207D /* NSString+urlToFileName.m */,
 				53FCD9221F0F6DE70087207D /* DownloadOperation.h */,
 				53FCD9231F0F6DE70087207D /* DownloadOperation.m */,
 				53FCD9241F0F6DE70087207D /* DownloadTool.h */,
@@ -244,7 +244,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FCD92C1F0F72D40087207D /* NSString+urlToFileName.h in Headers */,
+				53FCD9721F0F821C0087207D /* NSString+urlToFileName.h in Headers */,
 				53FCD9261F0F6DE70087207D /* DownloadOperation.h in Headers */,
 				B2C165E9384C0B8BEB22C2CE6E12E207 /* DownloadTool-umbrella.h in Headers */,
 				53FCD9281F0F6DE70087207D /* DownloadTool.h in Headers */,
@@ -364,7 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53FCD9291F0F6DE70087207D /* DownloadTool.m in Sources */,
-				53FCD92D1F0F72D40087207D /* NSString+urlToFileName.m in Sources */,
+				53FCD9731F0F821C0087207D /* NSString+urlToFileName.m in Sources */,
 				8C63277C712F071E153D56A6A97002B1 /* DownloadTool-dummy.m in Sources */,
 				53FCD9271F0F6DE70087207D /* DownloadOperation.m in Sources */,
 			);

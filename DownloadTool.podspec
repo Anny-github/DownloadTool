@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://www.jianshu.com/p/0282ad18e2ef'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anny-github' => 'wenshanshan1991@163.con' }
-  s.source           = { :git => 'https://github.com/Anny-github/DownloadTool.git', :tag => '0.0.1'}
+  s.source           = { :git => 'https://github.com/Anny-github/DownloadTool.git', :tag => '0.1.0'}
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DownloadTool/Classes/**/*'
