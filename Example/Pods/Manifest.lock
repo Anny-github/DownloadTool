@@ -1,0 +1,16 @@
+PODS:
+  - DownloadTool (0.1.0)
+
+DEPENDENCIES:
+  - DownloadTool (from `../`)
+
+EXTERNAL SOURCES:
+  DownloadTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DownloadTool: 13403fb9f480d76b31bb5199d0ec4426bda1c814
+
+PODFILE CHECKSUM: 03f07e0845900f752e6febf710b31299d0fb2325
+
+COCOAPODS: 1.2.1

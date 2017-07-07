@@ -1,0 +1,6 @@
+framework module DownloadTool {
+  umbrella header "DownloadTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
