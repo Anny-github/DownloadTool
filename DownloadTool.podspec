@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DownloadTool'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'concurrent download tool.'
   s.description      = <<-DESC
        concurrent download tool,downloading
@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'DownloadTool/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ ## s.dependency 'AFNetworking', '~> 2.3'
+
 end
